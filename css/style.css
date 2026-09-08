@@ -6,7 +6,7 @@
 }
 
 html {
-    scrool-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 ul, ol {
@@ -16,4 +16,20 @@ ul, ol {
 a {
     text-decoration: none;
     color: inherit;
+}
+ 
+/*=================================================
+    VARIÁVEIS CSS
+=================================================*/
+:root {
+/*Variáveis de cores*/
+    --color-blue:#0D121E;
+    --color-blue1:#080B16; 
+    --color-yellow:#F0B35B;
+    --color-light:#F2F5FD;
+    --color-light1:#DFDFDF;
+    --color-gray:#4F4F4F;
+
+    /*Variáveis de fontes*/
+    --font-family: 'Poppins', sans-serif;
 }
